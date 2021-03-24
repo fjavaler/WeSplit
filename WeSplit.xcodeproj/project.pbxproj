@@ -53,7 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				F8A3D676260B786500932915 /* WeSplitApp.swift */,
-				F8A3D678260B786500932915 /* ContentView.swift */,
+				F8A3D688260B787C00932915 /* ViewModels */,
+				F8A3D687260B787500932915 /* Views */,
+				F8A3D686260B786F00932915 /* Models */,
 				F8A3D67A260B786700932915 /* Assets.xcassets */,
 				F8A3D67F260B786700932915 /* Info.plist */,
 				F8A3D67C260B786700932915 /* Preview Content */,
@@ -67,6 +69,28 @@
 				F8A3D67D260B786700932915 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8A3D686260B786F00932915 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F8A3D687260B787500932915 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8A3D678260B786500932915 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8A3D688260B787C00932915 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
